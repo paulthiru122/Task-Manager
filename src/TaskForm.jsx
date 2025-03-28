@@ -16,9 +16,9 @@ const TaskForm = ({addTask}) => {
   return (
     <div>
         <form action="" onSubmit={handler}>
-            <div className="add-task">
-                <input type="text"  value={value} onChange={handlechange} placeholder='Add a Task' className='Add-task-input' />
-                <button type='submit'  className='add-task-button'> Add</button>
+            <div className="add-task-action">
+                <input type="text"   value={value} onChange={handlechange} placeholder='Add a Task' className='add-task-input' />
+                <button type='submit'  className='add-task-btn'> Add</button>
             </div>
         </form>
     </div>
